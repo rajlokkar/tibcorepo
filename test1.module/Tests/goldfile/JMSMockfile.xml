@@ -1,0 +1,18 @@
+<JMSReceiveMessage>
+<ns:ActivityOutput xmlns:ns="http://www.tibco.com/namespaces/tnt/plugins/jms+7b12d679-f8fb-459a-9563-23ea5fc1a717+output">
+  <JMSHeaders>
+    <ns:JMSDestination>testqueue</ns:JMSDestination>
+    <ns:JMSDeliveryMode>PERSISTENT</ns:JMSDeliveryMode>
+    <ns:JMSMessageID>ID:EMS-SERVER1.14F8664D8AA16:1</ns:JMSMessageID>
+    <ns:JMSTimestamp>1716358267156</ns:JMSTimestamp>
+    <ns:JMSExpiration>0</ns:JMSExpiration>
+    <ns:JMSRedelivered>false</ns:JMSRedelivered>
+    <ns:JMSPriority>4</ns:JMSPriority>
+  </JMSHeaders>
+  <JMSProperties>
+    <JMSXDeliveryCount xmlns="http://www.tibco.com/namespaces/tnt/plugins/jms+7b12d679-f8fb-459a-9563-23ea5fc1a717+output">1</JMSXDeliveryCount>
+  </JMSProperties>
+  <Body>test</Body>
+  <DynamicProperties/>
+</ns:ActivityOutput>
+</JMSReceiveMessage>

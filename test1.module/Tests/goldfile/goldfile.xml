@@ -1,0 +1,17 @@
+<resultSet xmlns="http://www.tibco.com/namespaces/tnt/plugins/jdbc+6af49c40-c197-47a5-8eb0-9e498b45b813+output">
+    <Record xmlns="">
+        <id>101</id>
+        <name>Rajesh</name>
+        <loc>Hyd</loc>
+    </Record>
+    <Record xmlns="">
+        <id>101</id>
+        <name>Rajesh</name>
+        <loc>Hyd</loc>
+    </Record>
+    <Record xmlns="">
+        <id>101</id>
+        <name>Rajesh</name>
+        <loc>Hyd</loc>
+    </Record>
+</resultSet>

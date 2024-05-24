@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<completeReportDTO>
+    <moduleResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="testSuiteResultDTO">
+        <moduleInfo>
+            <appName>test1</appName>
+            <appVersion>1.0</appVersion>
+            <moduleName>test1.module</moduleName>
+            <moduleVersion>1.0.0.qualifier</moduleVersion>
+        </moduleInfo>
+        <testSetResult xsi:type="testSetResultDTO">
+            <packageName>test1.module</packageName>
+            <processName>test1.module.JMSReceiver</processName>
+            <testCaseResult xsi:type="testCaseResultDTO">
+                <assertionFailure>0</assertionFailure>
+                <assertionResult xsi:type="assertionResultDTO">
+                    <activityName>CallProcess</activityName>
+                    <activityOutput></activityOutput>
+                    <assertionMode>Primitive</assertionMode>
+                    <assertionStatus>passed</assertionStatus>
+                    <endElementNameTag>&lt;/'test'&gt;</endElementNameTag>
+                    <goldInput>&lt;'test'&gt;test&lt;/'test'&gt;</goldInput>
+                    <instanceId>bw0a100</instanceId>
+                    <message></message>
+                    <startElementNameTag>&lt;'test'&gt;</startElementNameTag>
+                </assertionResult>
+                <assertions>1</assertions>
+                <assertionsRun>1</assertionsRun>
+                <processFailures>0</processFailures>
+                <testCaseFile>/test1.module/Tests/ReceiverTest.bwt</testCaseFile>
+            </testCaseResult>
+        </testSetResult>
+        <showFailureDetails>false</showFailureDetails>
+    </moduleResult>
+</completeReportDTO>

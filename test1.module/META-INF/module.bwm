@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_tkIy4BNeEe-PrYBVc3Ga3w" targetNamespace="http://tns.tibco.com/bw/composite/test1.module" name="test1.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_vL73IBNeEe-PrYBVc3Ga3w" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vMGPMBNeEe-PrYBVc3Ga3w" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vMPZIBNeEe-PrYBVc3Ga3w" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vMVfwBNeEe-PrYBVc3Ga3w" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vMaYQBNeEe-PrYBVc3Ga3w" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vMfQwBNeEe-PrYBVc3Ga3w" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vMnzoBNeEe-PrYBVc3Ga3w" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vMtTMBNeEe-PrYBVc3Ga3w" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vMtTMRNeEe-PrYBVc3Ga3w" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_uewBABNeEe-PrYBVc3Ga3w" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_uexPIBNeEe-PrYBVc3Ga3w" processName="test1.module.Process"/>
+  </sca:component>
+  <sca:component xmi:id="_O7qaYBajEe-f-bHGUnc4jg" name="ComponentJMSReceiver" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_O7qaYRajEe-f-bHGUnc4jg" processName="test1.module.JMSReceiver"/>
+  </sca:component>
+  <sca:component xmi:id="_hu-6ABakEe-f-bHGUnc4jg" name="Componentpublisher" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_hu-6ARakEe-f-bHGUnc4jg" processName="test1.module.publisher"/>
+  </sca:component>
+</sca:composite>
