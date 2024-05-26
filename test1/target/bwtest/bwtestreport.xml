@@ -29,6 +29,10 @@
                 <testCaseFile>/test1.module/Tests/ReceiverTest.bwt</testCaseFile>
             </testCaseResult>
         </testSetResult>
+        <testSetResult xsi:type="testSetResultDTO">
+            <packageName>test1.module</packageName>
+            <processName>test1.module.SubProcess</processName>
+        </testSetResult>
         <showFailureDetails>false</showFailureDetails>
     </moduleResult>
 </completeReportDTO>

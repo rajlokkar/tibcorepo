@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emulation:EmulationData xmlns:emulation="http:///emulation.ecore" isBW="true" location="/test1.module/Tests/test2.bwt" isSelected="true">
+  <ProcessNode Id="test1.module.SubProcess" Name="test1.module.SubProcess" ModelType="BW" moduleName="test1.module">
+    <Assertion Id="6af49c40-c197-47a5-8eb0-9e498b45b813" Name="JDBCQuery" hasDecoration="true">
+      <Lang>urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0</Lang>
+      <Expression></Expression>
+      <OriginalExpression></OriginalExpression>
+    </Assertion>
+  </ProcessNode>
+</emulation:EmulationData>

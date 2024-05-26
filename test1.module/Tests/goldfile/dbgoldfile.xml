@@ -1,0 +1,14 @@
+<JDBCQuery>
+<resultSet>
+    <Record>
+        <empid>1011</empid>
+        <empname>Rajesh</empname>
+        <emploc>HYD</emploc>
+    </Record>
+    <Record>
+        <empid>1022</empid>
+        <empname>Lokesh</empname>
+        <emploc>HYD</emploc>
+    </Record>
+</resultSet>
+</JDBCQuery>

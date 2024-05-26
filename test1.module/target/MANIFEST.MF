@@ -1,8 +1,8 @@
-Manifest-Version: 1.0.0.202405171003
+Manifest-Version: 1.0.0.202405261036
 Bundle-ManifestVersion: 2
 Bundle-Name: Test1 Module
 Bundle-SymbolicName: test1.module
-Bundle-Version: 1.0.0.202405171003
+Bundle-Version: 1.0.0.202405261036
 Bundle-Vendor: TIBCO Software Inc.
 TIBCO-BW-ApplicationModule: META-INF/module.bwm
 TIBCO-BW-ConfigProfile: META-INF/default.substvar
@@ -10,8 +10,9 @@ TIBCO-BW-Edition: bwe
 TIBCO-BW-JobSharedVariables: META-INF/module.jsv
 Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",com.tibco
  .bw.palette; filter:="(name=bw.generalactivities)",com.tibco.bw.palette
- ; filter:="(name=bw.jdbc)",com.tibco.bw.sharedresource.model; filter:="
- (name=bw.jdbc)"
+ ; filter:="(name=bw.jdbc)",com.tibco.bw.palette; filter:="(name=bw.jms)
+ ",com.tibco.bw.sharedresource.model; filter:="(name=bw.jdbc)",com.tibco
+ .bw.sharedresource.model; filter:="(name=bw.jmsconnection)"
 TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
 TIBCO-BW-Version: 6.9.1 V17 2023-05-19
 Bundle-ClassPath: .

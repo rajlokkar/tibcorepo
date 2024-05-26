@@ -4,3 +4,4 @@ testsuite:
 - name: "TestSuite1.bwts"
 testCases:
 - "ReceiverTest.bwt"
+- "test2.bwt"
