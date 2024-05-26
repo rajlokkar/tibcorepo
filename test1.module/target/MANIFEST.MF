@@ -1,8 +1,8 @@
-Manifest-Version: 1.0.0.202405261036
+Manifest-Version: 1.0.0.202405261147
 Bundle-ManifestVersion: 2
 Bundle-Name: Test1 Module
 Bundle-SymbolicName: test1.module
-Bundle-Version: 1.0.0.202405261036
+Bundle-Version: 1.0.0.202405261147
 Bundle-Vendor: TIBCO Software Inc.
 TIBCO-BW-ApplicationModule: META-INF/module.bwm
 TIBCO-BW-ConfigProfile: META-INF/default.substvar
